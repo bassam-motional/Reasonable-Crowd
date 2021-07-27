@@ -85,3 +85,5 @@ Polygonal representation of the road (excluding intersections).
 
 ## Tutorials
 To get acquainted with the data, we created `tutorials/tutorial.ipynb`. We highly recommend that you go through it to become familiar with the data. 
+
+Note that to run the tutorial you need the following pip pkgs: geopandas, matplotlib, numpy, imageio and shapely.
