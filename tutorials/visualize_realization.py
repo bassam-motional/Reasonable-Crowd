@@ -128,23 +128,3 @@ def visualize_realization(
     for filename in sorted_filenames:
         images.append(imageio.imread(os.path.join(save_dir, filename)))
     imageio.mimsave(os.path.join(save_dir, "movie.mp4"), images, fps=1 / dt_refresh_fig)
-
-
-if __name__ == "__main__":
-    map_path = (
-        "/home/bhelou/Documents/data/rc_cleaning/data_share/maps/U_boundaries.gpkg"
-    )
-    trajectory_path = (
-        "/home/bhelou/Documents/data/rc_cleaning/data_share/trajectories/U_27-a.json"
-    )
-
-    # map_path = (
-    #     "/home/bhelou/Documents/data/rc_cleaning/data_share/maps/S_boundaries.gpkg"
-    # )
-    # trajectory_path = (
-    #     "/home/bhelou/Documents/data/rc_cleaning/data_share/trajectories/S_23-a.json"
-    # )
-
-    save_dir = "/home/bhelou/Documents/data/rc_cleaning/data_share/plots_CAN_DELETE"
-
-    visualize_realization(trajectory_path, map_path, save_dir)
