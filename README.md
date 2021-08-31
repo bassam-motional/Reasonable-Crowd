@@ -2,7 +2,7 @@
 
 Welcome to the Reasonable Crowd dataset! This dataset will help you develop and test driving behavior specification models.
 
-You can find the paper associated with the dataset at  .... <TODO: Insert links once it is publicly available>
+You can find the paper associated with the dataset at  [https://arxiv.org/abs/2107.13507](https://arxiv.org/abs/2107.13507).
 
 ## Data overview
 
