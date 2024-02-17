@@ -6,7 +6,7 @@ You can find the paper associated with the dataset at  [https://arxiv.org/abs/21
 
 ## Data overview
 
-Your first step will be to download the data from [here](https://reasonable-crowd-public-data.s3.amazonaws.com/reasonable_crowd_data.zip).
+Your first step will be to download the data from [here](https://1drv.ms/u/s!AlYGM2OFXAShgoh0S1ZcbEpbn-oG9g?e=BROIGm).
 
 NOTES:
 - Once unzipped, the data will expand to about 27.5 gb!
